@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="basic-light-theme/style.css">
+    <link rel="stylesheet" id="styleLink" href="basic-light-theme/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior фронтендщика</title>
 </head>
@@ -74,10 +74,12 @@
             <a href="tel:067-519-24-20" class="footer-phone">067-519-24-20</a>
         </div>
         <div>
-            <button class="themeButton">Изменить тему</button>
+            <button id="buttonLightTheme" class="lightButton">светлая тема</button>
+            <button id="buttonDarkTheme" class="darkButton">светлая тема</button>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="switchToDark.js"></script>
+    <script src="switchToLight.js"></script>
 </body>
 
 </html>
