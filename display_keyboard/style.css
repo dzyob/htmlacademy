@@ -130,6 +130,15 @@ body {
     line-height: 26px;
   }
   
+  .enter {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    flex-grow: 1;
+    font-size: 24px;
+    line-height: 26px;
+  }
   .space {
     height: 40px;
   }
